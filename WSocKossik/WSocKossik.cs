@@ -22,7 +22,7 @@ namespace WSocKossik
 
         public override string SubProtocol => subProtocol;
 
-        public override WebSocketState State => throw new NotImplementedException();
+        public override WebSocketState State => state;
 
         public override void Abort()
         {
